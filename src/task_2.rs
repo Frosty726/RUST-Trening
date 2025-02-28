@@ -1,4 +1,4 @@
-pub fn collatz_length(mut n: i32) -> u32 {
+fn collatz_length(mut n: i32) -> u32 {
 
 	let mut length = 1;
 
@@ -17,4 +17,11 @@ pub fn collatz_length(mut n: i32) -> u32 {
 #[test]
 fn test_collatz_length() {
 	assert_eq!(collatz_length(11), 15);
+}
+
+pub fn demonstrate() {
+	let n = 11;
+    println!("--- Task 2 ---");
+    println!("Длина последовательности: {}", collatz_length(n));
+    println!();
 }

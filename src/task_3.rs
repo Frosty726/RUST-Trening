@@ -1,4 +1,4 @@
-pub fn transpose(matrix: [[i32; 3]; 3]) -> [[i32; 3]; 3] {
+fn transpose(matrix: [[i32; 3]; 3]) -> [[i32; 3]; 3] {
 
     let mut res: [[i32; 3]; 3] = [[0; 3]; 3];
 
@@ -27,4 +27,17 @@ fn test_transpose() {
             [103, 203, 303],
         ]
     );
+}
+
+pub fn demonstrate() {
+    let matrix = [
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9]
+    ];
+    println!("--- Task 3 ---");
+    println!("Матрица: {:#?}", matrix);
+    let transposed = transpose(matrix);
+    println!("Транспонированная матрица: {:#?}", transposed);
+    println!();
 }
