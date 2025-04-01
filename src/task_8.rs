@@ -21,4 +21,5 @@ pub fn demonstrate() {
     assert_eq!(min("hello", "goodbye"), "goodbye");
     assert_eq!(min("bat", "armadillo"), "armadillo");
     print!("Все тесты пройдены!");
+    println!();
 }

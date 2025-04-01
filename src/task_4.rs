@@ -30,4 +30,5 @@ pub fn demonstrate() {
     println!("Модуль {v:?}: {}", magnitude(&v));
     normalize(&mut v);
     println!("Модуль {v:?} после нормализации: {}", magnitude(&v));
+    println!();
 }

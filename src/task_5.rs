@@ -54,4 +54,5 @@ pub fn demonstrate() {
     );
     println!("Двери лифта закрылись: {:?}", car_door_closed());
     println!("Лифт прибыл на третий этаж: {:?}", car_arrived(3));
+    println!();
 }

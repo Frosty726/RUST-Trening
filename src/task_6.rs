@@ -150,4 +150,5 @@ pub fn demonstrate() {
         left: Box::new(Expression::Value(0)),
         right: Box::new(Expression::Value(0))
     }));
+    println!();
 }

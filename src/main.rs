@@ -8,6 +8,9 @@ mod task_5;
 mod task_6;
 mod task_7;
 mod task_8;
+mod task_9;
+mod task_10;
+mod task_11;
 
 
 fn main() {
@@ -18,5 +21,8 @@ fn main() {
     // task_5::demonstrate();
     // task_6::demonstrate();
     // task_7::demonstrate();
-    task_8::demonstrate();
+    // task_8::demonstrate();
+    // task_9::demonstrate();
+    // task_10::demonstrate();
+    task_11::demonstrate();
 }

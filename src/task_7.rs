@@ -31,4 +31,5 @@ pub fn demonstrate() {
     let logger = VerbosityFilter { max_verbosity: 3, inner: StderrLogger };
     logger.log(5, "Какое то");
     logger.log(2, "Сообщение");
+    println!();
 }
